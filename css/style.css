@@ -1,0 +1,88 @@
+/*import fonts from fonts.css file*/
+
+@import url(./fonts.css);
+
+
+/*=========IMPORT GLOBAL STYLING==================================*/
+
+@import url(./partials/global.css);
+
+/*====================START NAVIGATION======================*/
+.header_area.main-menu.navbar.navbar-brand{
+    
+    padding: 0rem 2rem 0rem 5rem;
+  
+}
+
+.header_area.main-menu.navbar{
+    padding: 1rem 20rem;
+    
+}
+
+.header_area.main-menu.nav-item.nav-link{
+    
+    font-family:"Hina_Mincho";
+    text-transform:uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: aliceblue;
+ 
+}
+
+.header_area.main-menu.navbar.nav.active a{
+   background-color:violet
+   
+   /*-webkit-background-clip: text
+   -webkit-text-fill-color:transparent;*/
+}
+
+
+.header_area.main-menu.navbar.nav.active a:hover{
+
+    background-color:violet
+    
+}
+/*====================END NAVIGATION======================*/
+
+
+
+/*===================BANNER AREA=========================*/
+
+.site-main .site-banner{
+    background:url(../img/banner.jpg/home-banner.jpg)no-repeat;
+    background-position: 0% 50%;
+}
+
+.site-main .site-banner.site-title h3{
+   padding-top: 35%;
+   font-weight: 500;
+}
+
+.site-main.site-banner.site-title h3::after{
+    content:"";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+
+}
+
+.site-main.site-banner.site-title h1{
+    font-size: 5rem;
+}
+
+.site-main.site-banner.site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main.site-banner.banner-Image>img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+    
+.title-text{
+    font: normal bold 50px/72px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
